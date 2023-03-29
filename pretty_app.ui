@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>693</width>
+    <height>398</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>7</pointsize>
+    <italic>false</italic>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #a7d4ff</string>
+  </property>
+  <widget class="QPushButton" name="previous_button">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  text-align: center;
+  background: #5468ff;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+font-size: 26px;</string>
+   </property>
+   <property name="text">
+    <string>Previous</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next_button">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>40</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  text-align: center;
+  background: #5468ff;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+font-size: 26px;</string>
+   </property>
+   <property name="text">
+    <string>Next</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>170</y>
+     <width>591</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  background: #7282ff;
+text-align: center;
+color: #fff;
+font-size: 35px;
+border-radius: 15px</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pages">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>330</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+  background: #5468ff;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+font-size: 16px;
+padding-left: 10px</string>
+   </property>
+   <property name="text">
+    <string>Page: </string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
